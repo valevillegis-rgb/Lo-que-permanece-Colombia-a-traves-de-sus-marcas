@@ -321,7 +321,7 @@ button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .inroom .hero .cta,.wide.explored .hero .cta{pointer-events:none}
 /* el + siempre por encima de las zonas de otras piezas */
 .hg .ho{z-index:1}.hg .hs{z-index:6}
-.hg .hs::after{content:"";position:absolute;inset:-9px;border-radius:50%}
+.hg .hs::after{content:"";position:absolute;inset:-6px;border-radius:50%}
 /* toda la habitación se ilumina y el letrero con la flecha también es un botón */
 .rhit{background:rgba(255,236,190,.14)!important;mix-blend-mode:normal!important;border-radius:18px!important;box-shadow:inset 0 0 0 3px rgba(255,248,225,.9),inset 0 0 70px rgba(255,214,140,.45),0 0 30px 6px rgba(255,214,140,.45)}
 .sg{pointer-events:auto!important;cursor:pointer;border:0;padding:0;background:transparent;z-index:1}
@@ -470,7 +470,7 @@ if(MOVIL){
    'PONY MALTA':[426,942,[395,955,458,1030]],
    'NUCITA':[618,895,[565,870,665,1040]],
    'JACK’S SNACKS':[800,1095,[660,1040,945,1150]],
-   'QUIPITOS':[810,862,[740,845,890,895]]}}
+   'QUIPITOS':[872,846,[740,845,890,895]]}}
  };
  $('img-main').src=M.main.src; Object.assign(MAIN,{w:M.main.w,h:M.main.h,focus:M.main.focus});
  ROOMS.forEach(r=>Object.assign(r,M.main.rooms[r.id]));
